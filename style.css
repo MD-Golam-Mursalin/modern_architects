@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 150px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+.nav-title {
+    color: rgb(19, 19, 19);
+    font-size: 2rem;
+    font-weight: 700;
+}
