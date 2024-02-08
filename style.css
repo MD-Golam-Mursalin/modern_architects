@@ -1,10 +1,9 @@
 * {
-    margin: 0px;
+    margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
 header {
-    border: 2px solid black;
     background: rgba(255, 144, 14, 0.1);
     padding: 50px 150px;
 
@@ -79,4 +78,50 @@ nav li a {
 
 .banner img{
     width: 100%;
+}
+/* responsive for mobile device */
+
+@media screen and (max-width:576px) {
+
+
+header{
+    padding: 25px;
+}
+nav{
+    flex-direction: column;
+}
+
+nav>ul{
+    gap:30px;
+    padding: 0;
+    margin-top: 50px;
+}
+
+
+nav li{
+    margin: 0;
+}
+.banner-title{
+    font-size: 2.5rem;
+}
+
+}
+
+
+
+/* responsive for tablet or medium device */
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+    header{
+        padding: 35px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        margin-top: 50px; 
+    }
+   
+    
 }
