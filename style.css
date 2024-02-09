@@ -6,6 +6,7 @@
 header {
     background: rgba(255, 144, 14, 0.1);
     padding: 50px 150px;
+    margin-bottom: 50px;
 
 }
 
@@ -79,6 +80,53 @@ nav li a {
 .banner img{
     width: 100%;
 }
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.2rem;
+}
+.teams-content{
+    padding: 20px;
+}
+
+.teams-title{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color:rgb(114, 114, 114);
+}
+
+.teams-description{
+color: rgb(114, 114, 114);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 15px;
+}
+
+.title-of{
+    color:rgb(19, 19, 19);
+    font-weight: 700;
+
+}
+.title-features{
+    color:rgb(255, 144, 14);
+    font-weight: 700;
+}
+
+
+
 /* responsive for mobile device */
 
 @media screen and (max-width:576px) {
