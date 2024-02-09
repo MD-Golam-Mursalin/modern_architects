@@ -153,6 +153,26 @@ nav li{
     font-size: 2.5rem;
 }
 
+
+.teams-container{
+    flex-direction: column;
+}
+
+
+.teams-img-container{
+    grid-template-columns: repeat(1,1fr);
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.teams-img-container img{
+    width: 80%;
+    position: relative;
+    left: 10px;
+}
+
+
+
 }
 
 
@@ -164,12 +184,24 @@ nav li{
     header{
         padding: 35px;
     }
-    nav{
+    nav,.teams-container{
         flex-direction: column;
     }
     nav>ul{
         margin-top: 50px; 
     }
-   
+    .teams-container{
+        flex-direction: column-reverse;
+    }
+    .teams-img-container{
+      gap:1rem;
+    }
+     
+
+    .teams-img-container img{
+        width: 80%;
+        position: relative;
+        left: 20px;
+    }
     
 }
